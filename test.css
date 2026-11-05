@@ -88,12 +88,15 @@ nav a:hover {
 
 #menu > div:hover {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-}
+    }
 
 
 #menu p {
     margin-top: 15px;
     margin-bottom: 0;
+    }
+img {
+    border-radius: 40px;
     }
 
 
@@ -108,6 +111,11 @@ nav a:hover {
 #contact {
     margin: 20px;
     }
+button,input,textarea {
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box; 
+    }
 .flex-container {
         max-width: 400px;
         display: flex;
@@ -115,6 +123,7 @@ nav a:hover {
         margin: 0 auto;
         gap: 15px;
     }
+
 
 button {
         background-color: #4CAF50;
