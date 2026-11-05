@@ -1,0 +1,133 @@
+body {
+        background-color: #faf8f5;
+        margin: 0;
+
+        color: #333;
+    
+        font-family: "Yu Gothic", "YuGothic";
+        line-height: 2.0;   
+    }
+
+header {
+        background-color: #4CAF50;
+        color: white;
+        text-align: center;
+        
+    }
+
+nav {
+        padding: 10px 20px;
+    }
+nav ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+nav li {
+        margin: 0 15px;
+    }
+nav ul a {
+        color: white;
+    }
+nav a:hover {
+        color: blue;
+    }
+
+
+#about {
+        text-align: center;
+    }
+#about h2 {
+        border-bottom: 5px solid #4CAF50;
+        display: inline-block;
+        color: #4CAF50;
+    }
+
+
+#menu {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px 30px;
+    }
+
+
+#menu h2 {
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+    color: #4CAF50;
+    }
+
+#menu h2::after {
+    content: "";
+    display: block;
+    
+
+    border-bottom: 5px solid #4CAF50;
+    
+
+    width: 80px; 
+    
+
+    margin: 10px auto 0; 
+    }
+
+
+#menu > div {
+    border: 1px solid #CCC;
+    border-radius: 40px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+        }
+
+
+#menu > div:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+#menu p {
+    margin-top: 15px;
+    margin-bottom: 0;
+    }
+
+
+#contact h2 {
+    text-align: center;
+    border-bottom: 5px solid #4CAF50;
+    color: #4CAF50;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    }
+#contact {
+    margin: 20px;
+    }
+.flex-container {
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 15px;
+    }
+
+button {
+        background-color: #4CAF50;
+        color: white;
+}
+button:hover {
+        background-color:#28802b;
+    }
+
+footer {
+        background-color: #4CAF50;
+        color: white;
+        text-align: center;
+        padding: 10px 10px;
+        
+    }
